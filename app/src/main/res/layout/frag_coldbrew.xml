@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_cold1"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coffee_cold_coldbrew"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="콜드 브루"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cold Brew"
+                        android:textSize="15sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4,000원"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_cold_latte"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_cold2"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coffee_cold_coldbrew_latte"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="콜드브루 오트 라떼"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cold Brew With Oat Milk"
+                        android:textSize="15sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4,000원"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_cold_black"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_cold3"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coffee_cold_coldbrew_black"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="콜드브루 시그니처 블랙"
+                        android:textSize="19sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Signature Black Cold Brew"
+                        android:textSize="15sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4,500원"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_cold_va"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_cold4"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coffee_cold_coldbrew_va"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="바닐라크림 콜드브루"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vanilla Cream Cold Brew"
+                        android:textSize="15sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3,500원"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_cold_dol"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_cold5"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coffee_cold_coldbrew_dol"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="돌체 콜드브루"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dolce Cold Brew"
+                        android:textSize="15sp"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4,000원"
+                        android:textSize="20sp"
+                        >
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/human"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="이름"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/engName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="영어이름"
+                android:textSize="15sp"
+                android:textColor="#aaa"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/message"
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:text="가격"
+                    android:textSize="16sp"
+                    android:textColor="#444"
+                    android:maxLines="1"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </CheckBox>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#aaa"/>
+
+</LinearLayout>
